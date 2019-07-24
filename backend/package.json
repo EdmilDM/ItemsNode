@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for online shop.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "backend": "nodemon app.js",
+    "frontend": "npm run start --prefix frontend",
+    "lint": "eslint ."
+  },
+  "author": "Edmil Di Massimo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.6",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
