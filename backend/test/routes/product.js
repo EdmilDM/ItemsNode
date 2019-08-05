@@ -4,7 +4,7 @@ const axios = require('axios');
 
 const env = require('../../config/env');
 
-const endpoint = `http://localhost:${env.PORT}/product`;
+const endpoint = `http://localhost:${env.PORT}/api`;
 
 describe('', () => {
   it('Get all products', async () => {
