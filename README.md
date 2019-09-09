@@ -5,8 +5,26 @@ Impplemented a REST API with Express, authentication with Passport.js and JSONWe
 
 # Installing and running
 ## 1. Clone the project
+```
 git clone https://github.com/EdmilDM/ItemsNode.git
+```
+
 ## 2.Install dependencies (Yarn or NPM)
-yarn install / npm install 
-## 3.Make .env file in root with configuration variables for database, and port for app.
-PORT, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT,DB_NAME
+```
+yarn install / npm install
+```
+
+## 3. Have a Mongo Server to connect to. 
+
+Either install locally(https://www.mongodb.com/) or connect to a service (like mLab).
+
+## 4. Make .env file in root with configuration variables for database, and port for app.
+
+Example:
+
+PORT=3001,
+DB_USER=admin,
+DB_PASSWORD=test,
+DB_HOST=localhost,
+DB_PORT=27017
+DB_NAME=products
