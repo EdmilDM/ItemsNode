@@ -9,7 +9,7 @@ Impplemented a REST API with Express, authentication with Passport.js and JSONWe
 git clone https://github.com/EdmilDM/ItemsNode.git
 ```
 
-## 2.Install dependencies (Yarn or NPM)
+## 2. Install dependencies (Yarn or NPM)
 ```
 yarn install / npm install
 ```
@@ -26,5 +26,5 @@ PORT=3001,
 DB_USER=admin,
 DB_PASSWORD=test,
 DB_HOST=localhost,
-DB_PORT=27017
+DB_PORT=27017,
 DB_NAME=products
